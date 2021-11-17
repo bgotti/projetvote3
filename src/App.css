@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 1em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.flex {
+  margin-bottom: 1em;
+}
+
+Button:hover {
+  transform: scale(1.12);
+}
+
+/* .hidden {
+  visibility: hidden;
+} */
+
+@media only screen and (min-width: 600px) {
+  .flex {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .flex {
+    display: block;
+  }
+}
